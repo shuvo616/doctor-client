@@ -1,11 +1,16 @@
 import React from 'react';
+import Blogs from '../Blogs/Blogs';
+import Contact from '../Contact/Contact';
+import Doctors from '../Doctors/Doctors';
 import FeaturedService from '../FeaturedService/FeaturedService';
+import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import MakeAppointment from '../MakeAppointment/MakeAppointment';
 import NewTestimonial from '../NewTestimonial/NewTestimonial';
 import Services from '../Services/Services';
 import ShowCard from '../ShowCard/ShowCard';
 import Testimonials from '../Testimonials/Testimonials';
+import TestService from '../TestService/TestService';
 import TopServices from '../TopServices/TopServices';
 
 const Home = () => {
@@ -13,12 +18,16 @@ const Home = () => {
         <div>
             <Header></Header>
             <Services></Services>
-            <FeaturedService></FeaturedService>
+            {/* <FeaturedService></FeaturedService> */}
+            <TestService></TestService>
             <MakeAppointment></MakeAppointment>
             <Testimonials></Testimonials>
-            <ShowCard></ShowCard>
             <TopServices></TopServices>
             <NewTestimonial></NewTestimonial>
+            <Blogs></Blogs>
+            <Doctors></Doctors>
+            <Contact></Contact>
+            <Footer></Footer>
         </div>
     );
 };

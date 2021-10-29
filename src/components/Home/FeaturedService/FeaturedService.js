@@ -1,7 +1,7 @@
 import React from 'react';
 import featured from '../../../images/featured.png';
 
-const FeaturedService = () => {
+const   FeaturedService = () => {
     return (
         <section className="features-service pb-0 pb-md-5 my-5">
             <div className="container mb-5">
