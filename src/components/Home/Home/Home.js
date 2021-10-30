@@ -1,5 +1,5 @@
 import React from 'react';
-import Blogs from '../Blogs/Blogs';
+import Blog from '../Blog/Blog';
 import Contact from '../Contact/Contact';
 import Doctors from '../Doctors/Doctors';
 import FeatureService from '../FeatureService/FeatureService';
@@ -7,9 +7,8 @@ import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import MakeAppointment from '../MakeAppointment/MakeAppointment';
 import NewTestimonial from '../NewTestimonial/NewTestimonial';
+import PatientOpinion from '../PatientOpinion/PatientOpinion';
 import Services from '../Services/Services';
-import ShowCard from '../ShowCard/ShowCard';
-import Testimonials from '../Testimonials/Testimonials';
 import TopServices from '../TopServices/TopServices';
 
 const Home = () => {
@@ -19,10 +18,10 @@ const Home = () => {
             <Services></Services>
             <FeatureService></FeatureService>
             <MakeAppointment></MakeAppointment>
-            <Testimonials></Testimonials>
+            <PatientOpinion></PatientOpinion>
             <TopServices></TopServices>
             <NewTestimonial></NewTestimonial>
-            <Blogs></Blogs>
+            <Blog></Blog>
             <Doctors></Doctors>
             <Contact></Contact>
             <Footer></Footer>
