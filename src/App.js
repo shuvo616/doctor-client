@@ -21,9 +21,9 @@ function App() {
         <Route exact path="/appointment">
           <Appointment></Appointment>
         </Route>
-        <PrivateRoute exact path="/login">
+        <Route exact path="/login">
           <Login></Login>
-        </PrivateRoute>
+        </Route>
       </Switch>
     </Router>
     </UserContext.Provider>
